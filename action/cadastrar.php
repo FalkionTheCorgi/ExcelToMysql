@@ -7,8 +7,8 @@
 	$colunas = $_POST['colunas'];
 	$output = "<label class='text-warning'>Dados não Inseridos</label><br /><table class='table table-bordered'>";
 
-	$connect = mysqli_connect("177.20.4.61", "cestabasica", "H2J1YuSB", "salvadorportodoscestabasica");
-	$query_id = "SELECT (id) FROM beneficiados_completo ORDER BY id desc limit 1";
+	$connect = mysqli_connect();
+	$query_id = "query";
 	$ggQuery_id = mysqli_query($connect, $query_id);
 	$row_cnt = mysqli_num_rows($ggQuery_id);
 
