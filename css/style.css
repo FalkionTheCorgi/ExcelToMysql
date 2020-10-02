@@ -1,0 +1,12 @@
+body{
+	margin:0;
+  padding:0;
+  background-color:#f1f1f1;
+}
+.box{
+   width:700px;
+   border:1px solid #ccc;
+   background-color:#fff;
+   border-radius:5px;
+   margin-top:100px;
+}
