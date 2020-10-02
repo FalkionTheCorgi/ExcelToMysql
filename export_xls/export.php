@@ -21,11 +21,7 @@
     $dadosXls .= "          <th>data_nascimento</th>";
     $dadosXls .= "      </tr>";
     //incluimos nossa conexão
-    include_once('Conexao.class.php');
-    //instanciamos
-    $pdo = new Conexao();
-    //mandamos nossa query para nosso método dentro de conexao dando um return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    $result = "QUERY";
+    // CONEXAO BANCO DE DADOS AQUI
     //varremos o array com o foreach para pegar os dados
     foreach($result as $res){
         $dadosXls .= "      <tr>";
